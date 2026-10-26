@@ -16,15 +16,15 @@ class ContatosSeeder extends Seeder
     {
         DB::table('contatos')->insert([
             [
-                'nome' => 'Giovanninha Gatona',
-                'numTelefone' => '5511951143722',
+                'nome' => 'Jorvana Braços',
+                'numTelefone' => '5511952143722',
                 'usuario_id'=>1,
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],
             [
                 'nome' => 'GuguzinCapas',
-                'numTelefone' => '5511933572008',
+                'numTelefone' => '5511934572008',
                 'usuario_id'=>2,
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
